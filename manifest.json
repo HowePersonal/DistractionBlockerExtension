@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Distraction Blocker",
+    "description": "Blocks user selected websites as an addition to Distraction Blocker program",
+    "version": "1.0.0",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["code.js"]
+        }
+    ]
+}
